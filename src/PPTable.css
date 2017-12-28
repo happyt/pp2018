@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .lastColumn {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+  }
+  
+  .heading {
+    margin: auto;
+    background: lightskyblue;
+    border: 2px solid white;
+    color: black;
+    width: 100%;
+    padding: 4px 5px;
+  }
+  
+  .lastHeading {
+    background: lightskyblue;
+    border: 2px solid blue;
+    color: black;
+    width: 100%;
+    padding: 4px 5px;
+  }
+  
+  .match {
+    margin: auto;
+    background: #000;
+    border: 1px solid white;
+    color: #fff;
+    padding: 5px 5px;
+    width: 100%;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .scores {
+      float: right;
+      font-size: 14px;
+  }
+  
+  .set {
+      min-width: 20px;
+      text-align: center;
+  }
+  
+  sup {
+    position: absolute;
+      top: -6px;
+    font-size: 10px;
+        line-height: 0;
+      position: relative;
+      vertical-align: baseline;
+  }
+  
+  .player {
+      font-size: 12px;
+      width: 96%;
+  }
+  
+  
+  div {
+    float: left;
+    display: block;
+  }
+  
+  .seed {
+    margin-left: 5px;
+  }
+  
+  
+  .star {
+      display: inline-block;
+      background-image: url(images/standard.png);
+      background-position: 0 -164px;
+      background-repeat: no-repeat;
+      height: 12px;
+      width: 18px;
+      margin-left: 5px;
+  }
+  
+  .winner {
+      display: inline-block;
+      background-image: url(images/standard.png);
+      background-position: 0 -1191px;
+      background-repeat: no-repeat;
+      height: 12px;
+      width: 18px;
+      margin-left: 5px;
+  }
+  
+  .tab0 {
+    width: 18px;
+    background: black;
+    color: black;
+    padding: 1px 1px;
+    margin-right: 2px;
+  }
+  
+  .tab1 {
+    width: 18px;
+    background: orange;
+    padding: 1px 1px;
+    margin-right: 2px;
+  }
+  
+  .tab2 {
+    width: 18px;
+    background: lawngreen;
+    padding: 1px 1px;
+    margin-right: 2px;
+  }
+  
+  .tab3 {
+    width: 18px;
+    color: red;
+    background: red;
+    padding: 1px 1px;
+    margin-right: 2px;
+  }
+  
+  .flag {
+      display: inline-block;
+      background-image: url(images/flags-standard.png);
+      background-position: 0 -440px;
+      background-repeat: no-repeat;
+      height: 12px;
+      width: 18px;
+     margin-left: 10px;
+     margin-right: 5px;
+  }
+  
+  .Arg { background-position: 0 -0px }
+  .Aus { background-position: 0 -22px }
+  .Aut { background-position: 0 -44px }
+  .Bel { background-position: 0 -66px }
+  .Bih { background-position: 0 -88px }
+  .Blr { background-position: 0 -110px }
+  .Bra { background-position: 0 -132px }
+  .Bgr { background-position: 0 -154px }
+  .Can { background-position: 0 -176px }
+  .Chn { background-position: 0 -198px }
+  .Col { background-position: 0 -220px }
+  .Hrv { background-position: 0 -242px }
+  .Cyp { background-position: 0 -264px }
+  .Cze { background-position: 0 -286px }
+  .Den { background-position: 0 -308px }
+  .Dom { background-position: 0 -330px }
+  .Esp { background-position: 0 -352px }
+  .Est { background-position: 0 -374px }
+  .Fin { background-position: 0 -396px }
+  .Fra { background-position: 0 -418px }
+  .Gbr { background-position: 0 -440px }
+  .Ger { background-position: 0 -462px }
+  .Hun { background-position: 0 -484px }
+  .Ind { background-position: 0 -506px }
+  .Irl { background-position: 0 -528px }
+  .Isr { background-position: 0 -550px }
+  .Jam { background-position: 0 -572px }
+  .Jpm { background-position: 0 -594px }
+  .Kaz { background-position: 0 -616px }
+  .Kor { background-position: 0 -638px }
+  .Lva { background-position: 0 -660px }
+  .Ltu { background-position: 0 -682px }
+  .Lux { background-position: 0 -704px }
+  .Mex { background-position: 0 -726px }
+  .Mne { background-position: 0 -748px }
+  .Ned { background-position: 0 -770px }
+  .Nle { background-position: 0 -770px }
+  .Nzl { background-position: 0 -792px }
+  .Pak { background-position: 0 -814px }
+  .Phi { background-position: 0 -836px }
+  .Pol { background-position: 0 -858px }
+  .Prt { background-position: 0 -880px }
+  .Pri { background-position: 0 -902px }
+  .Tcd { background-position: 0 -924px }
+  .Zaf { background-position: 0 -946px }
+  .Rus { background-position: 0 -968px }
+  .Svn { background-position: 0 -990px }
+  .Srb { background-position: 0 -1012px }
+  .Che { background-position: 0 -1034px }
+  .Svk { background-position: 0 -1056px }
+  .Swe { background-position: 0 -1078px }
+  .Tha { background-position: 0 -1100px }
+  .Twn { background-position: 0 -1122px }
+  .Tun { background-position: 0 -1144px }
+  .Tur { background-position: 0 -1166px }
+  .Ukr { background-position: 0 -1188px }
+  .Ury { background-position: 0 -1210px }
+  .USA { background-position: 0 -1232px }
+  .Uzb { background-position: 0 -1254px }
+  .Zan { background-position: 0 -1276px }
+  .Eng { background-position: 0 -1298px }
+  .Sco { background-position: 0 -1320px }
+  .Wal { background-position: 0 -1342px }
+  .Nir { background-position: 0 -1364px }
+  .NIr { background-position: 0 -1364px }
+  .CI { background-position: 0 -1386px }
+  .Grc { background-position: 0 -1408px }
+  .Hkg { background-position: 0 -1430px }
+  .Mlt { background-position: 0 -1452px }
+  .Ita { background-position: 0 -1474px }
+  .Rou { background-position: 0 -1496px }
+  

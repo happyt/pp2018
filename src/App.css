@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+}
+
+.App-header {
+  background-color: rgb(19, 3, 112);
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+  
+.siteContent {
+  flex: 1;
+}
+
+.fix-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  overflow:hidden;
+}
+
+.table-row {
+  display: flex;           display: -webkit-flex;
+  flex-direction: row;     -webkit-flex-direction: row;
+  flex-grow: 0;            -webkit-flex-grow: 0;
+  flex-wrap: wrap;         -webkit-flex-wrap: wrap;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.scores {
+  display: flex;         
+  flex-direction: column; 
+}
+
+.text {
+  flex-grow: 1;            -webkit-flex-grow: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 0px;
+}
+
+.spacing {
+  flex: 1;
+}
+.text {
+  flex: 36;
+}
+.icon {
+  flex: 3;
+}
+.country {
+  flex: 6;
+  background-color: aquamarine;
+  padding-left: 10px;
+}
+.num { 
+  flex: 3;
+}
+.hyphen {
+ flex: 1;
+}
+
+
